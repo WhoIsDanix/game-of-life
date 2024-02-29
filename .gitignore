@@ -1,0 +1,6 @@
+*.dll
+*.ini
+lib
+x64
+x32
+.vs
