@@ -161,6 +161,8 @@ void Game::Render() {
     ImGui::Text("Delta time: %f", mDeltaTime);
 
     ImGui::SliderFloat("Simulation update rate", &mSimulationUpdateRate, 0.1f, 1.0f);
+    ImGui::InputInt("Cell width", &mCellWidth);
+    ImGui::InputInt("Cell height", &mCellHeight);
 
     ImGui::NewLine();
 
